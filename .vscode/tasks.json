@@ -18,7 +18,7 @@
       "dependsOn": ["docker-build"],
       "dockerRun": {
         "env": {
-          "FLASK_APP": "app.py"
+          "FLASK_APP": "hello_app/webapp.py"
         }
       },
       "python": {
